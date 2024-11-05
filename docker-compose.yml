@@ -1,0 +1,10 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "5258:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
