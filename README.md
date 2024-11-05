@@ -11,19 +11,7 @@ A simple REST API built with .NET 8 that returns JSON data. This project include
 ## Getting Started
 
 ### Local Development
-
-1. Clone the repository
-```bash
-git clone <your-repo-url>
-cd MonApiJson
-```
-
-2. Restore dependencies
-```bash
-dotnet restore
-```
-
-3. Run the application
+Run the application
 ```bash
 dotnet run
 ```
